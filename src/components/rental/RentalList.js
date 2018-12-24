@@ -10,7 +10,9 @@ export class RentalList extends React.Component {
   }
 
   renderRentals() {
+    debugger;
     return this.state.rentals.map((rental) => {
+      debugger;
       return (
         <RentalCard />
       )
@@ -18,6 +20,7 @@ export class RentalList extends React.Component {
   }
 
   render() {
+    debugger;
     return (
       <section id="rentalListing">
         <h1 className="page-title">Your Home All Around the World</h1>
